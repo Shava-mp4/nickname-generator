@@ -1,0 +1,12 @@
+html {
+  background-color: rgb(64, 77, 68);
+}
+
+body {
+  background-color: rgb(175, 199, 179);
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  width: 800px;
+  border-radius: 5px;
+}
