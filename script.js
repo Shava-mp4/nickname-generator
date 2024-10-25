@@ -12,6 +12,8 @@ let nicknames = [
   '"The Jester"',
 ];
 
+let allNickOut = [];
+
 function randNick() {
   let firstName = document.getElementById("first").value;
   let lastName = document.getElementById("last").value;
@@ -24,6 +26,7 @@ function allNick() {
   let firstName = document.getElementById("first").value;
   let lastName = document.getElementById("last").value;
   for (let i = 0; i < nicknames.length; i++) {
-    nickOut.innerHTML += `${firstName} ${nicknames[i]} ${lastName} <br>`;
+    allNickOut += `${firstName} ${nicknames[i]} ${lastName} <br>`;
   }
+  nickOut.innerHTML = allNickOut;
 }
